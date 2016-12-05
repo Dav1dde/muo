@@ -1,0 +1,17 @@
+{application, muo,
+ [{description, "Mass URL Opener"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { muo_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    worker_pool
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.

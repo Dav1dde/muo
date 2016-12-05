@@ -1,0 +1,4 @@
+-module(muo).
+
+%% API
+-export([]).
